@@ -1,0 +1,1432 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Magaz",
+				"Magazzino"
+			],
+			[
+				"VER",
+				"VERS_plug"
+			],
+			[
+				"VERS_",
+				"VERS_pro"
+			],
+			[
+				"ARR",
+				"ARR_P"
+			],
+			[
+				"eac",
+				"each\tfunc"
+			],
+			[
+				"hom",
+				"home\tfunc"
+			],
+			[
+				"home",
+				"user_home\tfunc"
+			],
+			[
+				"vecc",
+				"vecchio\tabc"
+			],
+			[
+				"hack",
+				"hack\tabc"
+			],
+			[
+				"up",
+				"up_hack\tabc"
+			],
+			[
+				"up_net",
+				"up_net\tabc"
+			],
+			[
+				"fun",
+				"fun_test\tabc"
+			],
+			[
+				"www",
+				"www.google.it\tabc"
+			],
+			[
+				"Net",
+				"Netclass\tabc"
+			],
+			[
+				"ARG",
+				"argv\tfunc"
+			],
+			[
+				"pin",
+				"ping_host\tabc"
+			],
+			[
+				"inf",
+				"info_remote\tabc"
+			],
+			[
+				"ping",
+				"pingato\tabc"
+			],
+			[
+				"rmt",
+				"rmt_info\tabc"
+			],
+			[
+				"chom",
+				"chomp\tfunc"
+			],
+			[
+				"add",
+				"addr\tfunc"
+			],
+			[
+				"ope",
+				"open\tfunc"
+			],
+			[
+				"pu",
+				"pub\tabc"
+			],
+			[
+				"rea",
+				"readlines\tfunc"
+			],
+			[
+				"ne",
+				"net_plg\tabc"
+			],
+			[
+				"path",
+				"path_helfo\tabc"
+			],
+			[
+				"tr",
+				"true\t(sublime_jedi.sublime-settings)"
+			],
+			[
+				"tw",
+				"two-panel"
+			],
+			[
+				"ali",
+				"alias\tabc"
+			],
+			[
+				"alai",
+				"alias\tabc"
+			],
+			[
+				"firefox",
+				"firefox\tabc"
+			],
+			[
+				"Itali",
+				"Italian\t🕮"
+			],
+			[
+				"prin",
+				"print"
+			],
+			[
+				"print",
+				"print_name"
+			],
+			[
+				"cas",
+				"case\t(fast.kill.sh)"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "Package Control Messages\n========================\n\n\nMaterial Theme\n--------------\n\n  ## Material Theme for Sublime Text 3\n  \n  ***Important Notice***\n  \n  Please note that this package is **deprecated** and not maintained anymore!\n  You are using a mirror of a now-deleted repository.\n  See https://github.com/wbond/package_control_channel/pull/8646 for details.\n  \n  **********************************************************************************************\n  \n  For more information on the Material Theme: https://github.com/SublimeText/material-theme\n  \n  **********************************************************************************************\n  \n  # Activate the theme\n  \n  You can activate this theme from:\n  - Command palette `Tools > Command Palette` (⌘/Ctrl + ⇧ + P) by typing `Material Theme: Activate theme`.\n  - Context menu (Right click on the editor) and choose `Material Theme > Activate`\n  - `Preferences > Packages Settings` and choose `Material Theme > Activate`\n  \n  You can also manually activate this theme by adding these lines to your user settings (**Preferences > Settings - User**):\n  \n  ```json\n  \"color_scheme\": \"Packages/Material Theme/schemes/Material-Theme.tmTheme\",\n  \"theme\": \"Material-Theme.sublime-theme\",\n  ```\n  \n  **NOTE:** Restart Sublime Text after activating the theme.\n  \n  ## File icons\n  From release 4.0.0 this theme use [A File Icon](https://packagecontrol.io/packages/A%20File%20Icon) package to display file icons. Please install the package and restart Sublime Text.\n  \n  **********************************************************************************************\n  \n  # Theme options\n  \n  ```json\n  // Accent\n  \"material_theme_accent_acid-lime\"         : true, // Set acid-lime accent color\n  \"material_theme_accent_blue\"              : true, // Set blue accent color\n  \"material_theme_accent_brba\"              : true, // Set Breaking Bad green accent color\n  \"material_theme_accent_bright-teal\"       : true, // Set bright-teal accent color\n  \"material_theme_accent_cyan\"              : true, // Set cyan accent color\n  \"material_theme_accent_graphite\"          : true, // Set graphite accent color\n  \"material_theme_accent_indigo\"            : true, // Set indigo accent color\n  \"material_theme_accent_lime\"              : true, // Set lime green accent color\n  \"material_theme_accent_orange\"            : true, // Set orange accent color\n  \"material_theme_accent_pink\"              : true, // Set pink accent color\n  \"material_theme_accent_purple\"            : true, // Set purple accent color\n  \"material_theme_accent_red\"               : true, // Set pale red accent color\n  \"material_theme_accent_sky\"               : true, // Set bright-cyan accent color\n  \"material_theme_accent_tomato\"            : true, // Set tomato red accent color\n  \"material_theme_accent_yellow\"            : true, // Set yellow accent color\n  \n  // Panels\n  \"material_theme_accent_scrollbars\"        : true, // Enable accent color for scrollbars\n  \"material_theme_accent_titlebar\"          : true, // Enable accent color for titlebar\n  \"material_theme_bright_scrollbars\"        : true, // Bright scrollbars puck color\n  \"material_theme_compact_panel\"            : true, // Set minimal padding for the search panel\n  \"material_theme_contrast_mode\"            : true, // Enable sidebar and panels contrast mode\n  \"material_theme_panel_separator\"          : true, // Show bottom panel separator\n  \"material_theme_small_statusbar\"          : true, // Set small status bar\n  \"material_theme_titlebar\"                 : true, // Enable title bar (OS X 10.10+)\n  \n  // Sidebar\n  \"material_theme_arrow_folders\"            : true, // Replace folder icons with arrows\n  \"material_theme_big_fileicons\"            : true, // Show bigger file type icons\n  \"material_theme_bullet_tree_indicator\"    : true, // Set a bullet as active tree indicator\n  \"material_theme_compact_sidebar\"          : true, // Set compact side bar\n  \"material_theme_disable_fileicons\"        : true, // Hide sidebar file type icons\n  \"material_theme_disable_folder_animation\" : true, // Disable folder animation\n  \"material_theme_disable_tree_indicator\"   : true, // Disable sidebar file indicator\n  \n  // Tabs\n  \"material_theme_bold_tab\"                 : true, // Make the tab labels bolder\n  \"material_theme_small_tab\"                : true, // Set small tabs\n  \"material_theme_tabs_autowidth\"           : true, // Enable autowidth for tabs\n  \"material_theme_tabs_separator\"           : true, // Show tabs separator, this disables tab hover animation\n  \n  // If you use Material Theme - Appbar addon you can use additional settings:\n  \"material_theme_tree_headings\"            : true, // Show sidebar headings\n  ```\n  \n  **********************************************************************************************\n  \n  # Recommended settings for a better experience:\n  \n  ```json\n  \"always_show_minimap_viewport\" : true,\n  \"bold_folder_labels\"           : true,\n  \"font_options\"                 : [\"gray_antialias\", \"subpixel_antialias\"], // On retina Mac & Windows\n  \"indent_guide_options\"         : [\"draw_normal\", \"draw_active\"], // Highlight active indent\n  \"line_padding_bottom\"          : 3,\n  \"line_padding_top\"             : 3,\n  \"overlay_scroll_bars\"          : \"enabled\",\n  ```\n\n\nSublimeLinter\n-------------\n\n  \n    ____        _     _ _                _     _       _\n   / ___| _   _| |__ | (_)_ __ ___   ___| |   (_)_ __ | |_ ___ _ __\n   \\___ \\| | | | '_ \\| | | '_ ` _ \\ / _ \\ |   | | '_ \\| __/ _ \\ '__|\n    ___) | |_| | |_) | | | | | | | |  __/ |___| | | | | ||  __/ |\n   |____/ \\__,_|_.__/|_|_|_| |_| |_|\\___|_____|_|_| |_|\\__\\___|_|\n  \n  \n  *** As of April 2024, the current stable version of Sublime Text, Build 4169,\n  has a bug and cannot install SublimeLinter without a restart.  You're fine\n  if you have a later dev build, e.g. build 4173 has a better experience. ***\n  \n  \n  Welcome to SublimeLinter, a linter framework for Sublime Text.\n  \n  Linters are not included, they must be installed separately.\n  Get them from Package Control: https://packagecontrol.io/search/SublimeLinter\n  \n  *** We're in a transition phase to the newer ST4 plugin host.  Unless we have\n  more experience for the process, it _may_ be necessary to restart Sublime Text\n  after installing or upgrading helper packages.  Just check if everything works\n  or if the console shows permanent errors.  On my machine, no restarts were\n  necessary. ***\n  \n  \n  For complete documentation on how to use and configure SublimeLinter,\n  please see: http://www.sublimelinter.com\n  \n  To report issues: https://github.com/SublimeLinter/SublimeLinter\n\n\nSublimeLinter-flake8\n--------------------\n\n  SublimeLinter-flake8\n  -------------------------------\n  This linter plugin for SublimeLinter provides an interface to flake8.\n  \n  Please read the installation instructions at:\n  \n  https://github.com/SublimeLinter/SublimeLinter-flake8\n\n\nSublimeLinter-pylint\n--------------------\n\n  SublimeLinter-pylint\n  -------------------------------\n  This linter plugin for SublimeLinter provides an interface to pylint.\n  \n  Please read the installation instructions at:\n  \n  https://github.com/SublimeLinter/SublimeLinter-pylint\n\n\nTrailingSpaces\n--------------\n\n  \n  \n      Thank you for installing Trailing Spaces\n      ----------------------------------------\n  \n      You're now ready to give trailing spaces *a hard time*!\n  \n  \n  Documentation\n  =============\n  \n  Although the usage of this plugin is dead simple, it comes with several options. All\n  details are available in the documentation, and you can read it by clicking on\n  \"Preferences / Package Settings / Trailing Spaces / Help\", or in a prettier form, by\n  browsing https://github.com/SublimeText/TrailingSpaces.\n  \n  Key Binding\n  ===========\n  \n  This plugin does not come with a default key binding for the deletion command. You can\n  pick your own key binding and define it in \"Preferences / Key Bindings - User\", or just\n  stick to using the menu entry under \"Edit\". Check the help for advice on this.\n  \n  Upgrades & Issues\n  =================\n  \n  Package Control will automatically update all packages every time the editor is started,\n  so there is nothing for you to worry about. If you however do find the plugin not to work\n  as it used to, head to the issues tracker (see links below) to report the problem.\n  \n  Useful Links\n  ============\n  \n  * Documentation & Code: https://github.com/SublimeText/TrailingSpaces\n  * Report issues / Request New Features / Roadmap: https://github.com/SublimeText/TrailingSpaces/issues\n  * Follow me on twitter: @jdvauguet\n",
+			"settings":
+			{
+				"buffer_size": 8628,
+				"line_ending": "Unix",
+				"name": "Package Control Messages",
+				"read_only": true,
+				"scratch": true
+			},
+			"undo_stack":
+			[
+				[
+					1,
+					1,
+					"package_control_message",
+					{
+						"message": "\n\nMaterial Theme\n--------------\n\n  ## Material Theme for Sublime Text 3\n  \n  ***Important Notice***\n  \n  Please note that this package is **deprecated** and not maintained anymore!\n  You are using a mirror of a now-deleted repository.\n  See https://github.com/wbond/package_control_channel/pull/8646 for details.\n  \n  **********************************************************************************************\n  \n  For more information on the Material Theme: https://github.com/SublimeText/material-theme\n  \n  **********************************************************************************************\n  \n  # Activate the theme\n  \n  You can activate this theme from:\n  - Command palette `Tools > Command Palette` (⌘/Ctrl + ⇧ + P) by typing `Material Theme: Activate theme`.\n  - Context menu (Right click on the editor) and choose `Material Theme > Activate`\n  - `Preferences > Packages Settings` and choose `Material Theme > Activate`\n  \n  You can also manually activate this theme by adding these lines to your user settings (**Preferences > Settings - User**):\n  \n  ```json\n  \"color_scheme\": \"Packages/Material Theme/schemes/Material-Theme.tmTheme\",\n  \"theme\": \"Material-Theme.sublime-theme\",\n  ```\n  \n  **NOTE:** Restart Sublime Text after activating the theme.\n  \n  ## File icons\n  From release 4.0.0 this theme use [A File Icon](https://packagecontrol.io/packages/A%20File%20Icon) package to display file icons. Please install the package and restart Sublime Text.\n  \n  **********************************************************************************************\n  \n  # Theme options\n  \n  ```json\n  // Accent\n  \"material_theme_accent_acid-lime\"         : true, // Set acid-lime accent color\n  \"material_theme_accent_blue\"              : true, // Set blue accent color\n  \"material_theme_accent_brba\"              : true, // Set Breaking Bad green accent color\n  \"material_theme_accent_bright-teal\"       : true, // Set bright-teal accent color\n  \"material_theme_accent_cyan\"              : true, // Set cyan accent color\n  \"material_theme_accent_graphite\"          : true, // Set graphite accent color\n  \"material_theme_accent_indigo\"            : true, // Set indigo accent color\n  \"material_theme_accent_lime\"              : true, // Set lime green accent color\n  \"material_theme_accent_orange\"            : true, // Set orange accent color\n  \"material_theme_accent_pink\"              : true, // Set pink accent color\n  \"material_theme_accent_purple\"            : true, // Set purple accent color\n  \"material_theme_accent_red\"               : true, // Set pale red accent color\n  \"material_theme_accent_sky\"               : true, // Set bright-cyan accent color\n  \"material_theme_accent_tomato\"            : true, // Set tomato red accent color\n  \"material_theme_accent_yellow\"            : true, // Set yellow accent color\n  \n  // Panels\n  \"material_theme_accent_scrollbars\"        : true, // Enable accent color for scrollbars\n  \"material_theme_accent_titlebar\"          : true, // Enable accent color for titlebar\n  \"material_theme_bright_scrollbars\"        : true, // Bright scrollbars puck color\n  \"material_theme_compact_panel\"            : true, // Set minimal padding for the search panel\n  \"material_theme_contrast_mode\"            : true, // Enable sidebar and panels contrast mode\n  \"material_theme_panel_separator\"          : true, // Show bottom panel separator\n  \"material_theme_small_statusbar\"          : true, // Set small status bar\n  \"material_theme_titlebar\"                 : true, // Enable title bar (OS X 10.10+)\n  \n  // Sidebar\n  \"material_theme_arrow_folders\"            : true, // Replace folder icons with arrows\n  \"material_theme_big_fileicons\"            : true, // Show bigger file type icons\n  \"material_theme_bullet_tree_indicator\"    : true, // Set a bullet as active tree indicator\n  \"material_theme_compact_sidebar\"          : true, // Set compact side bar\n  \"material_theme_disable_fileicons\"        : true, // Hide sidebar file type icons\n  \"material_theme_disable_folder_animation\" : true, // Disable folder animation\n  \"material_theme_disable_tree_indicator\"   : true, // Disable sidebar file indicator\n  \n  // Tabs\n  \"material_theme_bold_tab\"                 : true, // Make the tab labels bolder\n  \"material_theme_small_tab\"                : true, // Set small tabs\n  \"material_theme_tabs_autowidth\"           : true, // Enable autowidth for tabs\n  \"material_theme_tabs_separator\"           : true, // Show tabs separator, this disables tab hover animation\n  \n  // If you use Material Theme - Appbar addon you can use additional settings:\n  \"material_theme_tree_headings\"            : true, // Show sidebar headings\n  ```\n  \n  **********************************************************************************************\n  \n  # Recommended settings for a better experience:\n  \n  ```json\n  \"always_show_minimap_viewport\" : true,\n  \"bold_folder_labels\"           : true,\n  \"font_options\"                 : [\"gray_antialias\", \"subpixel_antialias\"], // On retina Mac & Windows\n  \"indent_guide_options\"         : [\"draw_normal\", \"draw_active\"], // Highlight active indent\n  \"line_padding_bottom\"          : 3,\n  \"line_padding_top\"             : 3,\n  \"overlay_scroll_bars\"          : \"enabled\",\n  ```\n"
+					},
+					"AQAAAAAAAAAAAAAAthQAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					2,
+					1,
+					"package_control_message",
+					{
+						"message": "\n\nSublimeLinter\n-------------\n\n  \n    ____        _     _ _                _     _       _\n   / ___| _   _| |__ | (_)_ __ ___   ___| |   (_)_ __ | |_ ___ _ __\n   \\___ \\| | | | '_ \\| | | '_ ` _ \\ / _ \\ |   | | '_ \\| __/ _ \\ '__|\n    ___) | |_| | |_) | | | | | | | |  __/ |___| | | | | ||  __/ |\n   |____/ \\__,_|_.__/|_|_|_| |_| |_|\\___|_____|_|_| |_|\\__\\___|_|\n  \n  \n  *** As of April 2024, the current stable version of Sublime Text, Build 4169,\n  has a bug and cannot install SublimeLinter without a restart.  You're fine\n  if you have a later dev build, e.g. build 4173 has a better experience. ***\n  \n  \n  Welcome to SublimeLinter, a linter framework for Sublime Text.\n  \n  Linters are not included, they must be installed separately.\n  Get them from Package Control: https://packagecontrol.io/search/SublimeLinter\n  \n  *** We're in a transition phase to the newer ST4 plugin host.  Unless we have\n  more experience for the process, it _may_ be necessary to restart Sublime Text\n  after installing or upgrading helper packages.  Just check if everything works\n  or if the console shows permanent errors.  On my machine, no restarts were\n  necessary. ***\n  \n  \n  For complete documentation on how to use and configure SublimeLinter,\n  please see: http://www.sublimelinter.com\n  \n  To report issues: https://github.com/SublimeLinter/SublimeLinter\n"
+					},
+					"AQAAALYUAAAAAAAA+hkAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAALYUAAAAAAAAthQAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					3,
+					1,
+					"package_control_message",
+					{
+						"message": "\n\nSublimeLinter-flake8\n--------------------\n\n  SublimeLinter-flake8\n  -------------------------------\n  This linter plugin for SublimeLinter provides an interface to flake8.\n  \n  Please read the installation instructions at:\n  \n  https://github.com/SublimeLinter/SublimeLinter-flake8\n"
+					},
+					"AQAAAPoZAAAAAAAAFhsAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAPoZAAAAAAAA+hkAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					4,
+					1,
+					"package_control_message",
+					{
+						"message": "\n\nSublimeLinter-pylint\n--------------------\n\n  SublimeLinter-pylint\n  -------------------------------\n  This linter plugin for SublimeLinter provides an interface to pylint.\n  \n  Please read the installation instructions at:\n  \n  https://github.com/SublimeLinter/SublimeLinter-pylint\n"
+					},
+					"AQAAABYbAAAAAAAAMhwAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAABYbAAAAAAAAFhsAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					5,
+					1,
+					"package_control_message",
+					{
+						"message": "\n\nTrailingSpaces\n--------------\n\n  \n  \n      Thank you for installing Trailing Spaces\n      ----------------------------------------\n  \n      You're now ready to give trailing spaces *a hard time*!\n  \n  \n  Documentation\n  =============\n  \n  Although the usage of this plugin is dead simple, it comes with several options. All\n  details are available in the documentation, and you can read it by clicking on\n  \"Preferences / Package Settings / Trailing Spaces / Help\", or in a prettier form, by\n  browsing https://github.com/SublimeText/TrailingSpaces.\n  \n  Key Binding\n  ===========\n  \n  This plugin does not come with a default key binding for the deletion command. You can\n  pick your own key binding and define it in \"Preferences / Key Bindings - User\", or just\n  stick to using the menu entry under \"Edit\". Check the help for advice on this.\n  \n  Upgrades & Issues\n  =================\n  \n  Package Control will automatically update all packages every time the editor is started,\n  so there is nothing for you to worry about. If you however do find the plugin not to work\n  as it used to, head to the issues tracker (see links below) to report the problem.\n  \n  Useful Links\n  ============\n  \n  * Documentation & Code: https://github.com/SublimeText/TrailingSpaces\n  * Report issues / Request New Features / Roadmap: https://github.com/SublimeText/TrailingSpaces/issues\n  * Follow me on twitter: @jdvauguet\n"
+					},
+					"AQAAADIcAAAAAAAAtCEAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAADIcAAAAAAAAMhwAAAAAAAAAAAAAAADwvw"
+				]
+			]
+		},
+		{
+			"contents": "# CyberSheppard Official Plugins\n\nOfficial plugin repository for [CyberSheppard](https://github.com/Dognet-Technologies/cybersheppard) MicroSIEM platform.\n\n[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)\n[![Plugins](https://img.shields.io/badge/plugins-12-green.svg)](plugins/)\n[![CI Status](https://github.com/Dognet-Technologies/plugins-official/workflows/CI/badge.svg)](https://github.com/Dognet-Technologies/plugins-official/actions)\n\n## 🚀 Available Plugins\n\n### Vulnerability Scanners\n- **[Nexpose Scanner](plugins/vulnerability-scanner-nexpose/)** - Rapid7 Nexpose integration\n- **[Qualys Scanner](plugins/vulnerability-scanner-qualys/)** - Qualys VMDR integration\n- **[Nessus Scanner](plugins/vulnerability-scanner-nessus/)** - Tenable Nessus integration\n- **[OpenVAS Scanner](plugins/vulnerability-scanner-openvas/)** - Open-source scanner integration\n\n### Integrations\n- **[Ansible Integration](plugins/integration-ansible/)** - Automated remediation with Ansible\n- **[Chef Integration](plugins/integration-chef/)** - Infrastructure as Code with Chef\n\n### Enrichment\n- **[Reporting Enricher](plugins/enrichment-reporting/)** - Advanced reporting capabilities\n- **[Remediation Planner](plugins/enrichment-remediation/)** - Automated remediation plans\n\n### Customization\n- **[Theme Pack - Professional Dark](plugins/theme-pack-professional-dark/)** - Dark theme collection\n- **[Language Pack - Italian](plugins/language-pack-italian/)** - Italian localization\n- **[Language Pack - Spanish](plugins/language-pack-spanish/)** - Spanish localization\n\n## 📦 Installation\n\n### From CyberSheppard UI\n\n1. Open CyberSheppard web interface\n2. Navigate to **Plugins** → **Plugin Manager**\n3. The official repository is pre-configured\n4. Browse available plugins and click **Install**\n\n### Manual Installation\n\n```bash\n# Clone the repository\ngit clone https://github.com/Dognet-Technologies/plugins-official.git\n\n# Copy plugin to CyberSheppard plugins directory\ncp -r plugins-official/plugins/plugin-name /var/cybersheppard/plugins/\n\n# Enable via UI or API\ncurl -X POST http://localhost:8080/api/plugins/install/{plugin_id}\n```\n### 🛠️ Plugin Development\n\n## Quick Start\n```\n# Clone the repository\ngit clone https://github.com/Dognet-Technologies/plugins-official.git\ncd plugins-official\n\n# Copy example plugin as template\ncp -r plugins/example-plugin plugins/my-new-plugin\ncd plugins/my-new-plugin\n\n# Edit manifest.json\nvim manifest.json\n\n# Plugin Structure\nplugins/my-plugin/\n├── manifest.json          # Plugin metadata (REQUIRED)\n├── plugin.py             # Main plugin code (for Python)\n├── requirements.txt      # Dependencies (Python)\n├── README.md             # Documentation\n├── LICENSE               # Plugin license\n└── tests/                # Unit tests\n    └── test_plugin.py\n\n\n# Manifest Example\n{\n  \"name\": \"my-plugin\",\n  \"version\": \"1.0.0\",\n  \"stato\": \"stable\",\n  \"stability_level\": \"beta\",\n  \"owner\": \"cybersheppard-official\",\n  \"description\": \"Plugin description\",\n  \"language\": \"python\",\n  \"runtime\": \"python3.11\",\n  \"quality\": \"ottima\",\n  \"license\": \"MIT\",\n  \"compatibility\": {\n    \"min_version\": \"1.0.0\",\n    \"max_version\": \"2.0.0\"\n  },\n  \"permissions\": [\n    \"events:vulnerability:read\",\n    \"network:external\"\n  ],\n  \"resources\": {\n    \"max_memory_mb\": 128,\n    \"max_cpu_percent\": 5,\n    \"max_execution_time_ms\": 10000\n  },\n  \"events\": {\n    \"subscribes\": [\"vulnerability.detected\"],\n    \"publishes\": [\"my-plugin.event\"]\n  },\n  \"dependencies\": {\n    \"python\": [\"requests>=2.28.0\"]\n  },\n  \"configuration_schema\": {\n    \"api_url\": {\n      \"type\": \"string\",\n      \"required\": true,\n      \"label\": \"API URL\"\n    }\n  },\n  \"files\": {\n    \"main\": \"plugin.py\",\n    \"checksum\": \"sha256:abc123...\"\n  }\n}\n\n",
+			"file": "README.md",
+			"file_size": 2157,
+			"file_write_time": 134114823465939461,
+			"settings":
+			{
+				"buffer_size": 3742,
+				"line_ending": "Unix",
+				"name": "# CyberSheppard Official Plugins"
+			},
+			"undo_stack":
+			[
+				[
+					4,
+					1,
+					"",
+					null,
+					"AQAAAAAAAAAAAAAAZQgAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					7,
+					1,
+					"insert",
+					{
+						"characters": "\n\n\n"
+					},
+					"AwAAAGUIAAAAAAAAZggAAAAAAAAAAAAAZggAAAAAAABnCAAAAAAAAAAAAABnCAAAAAAAAGgIAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAGUIAAAAAAAAZQgAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					9,
+					1,
+					"",
+					null,
+					"AQAAAGgIAAAAAAAAcAkAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAGgIAAAAAAAAaAgAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					12,
+					1,
+					"insert_snippet",
+					{
+						"contents": "`${0:$SELECTION}`"
+					},
+					"AQAAAGUIAAAAAAAAZwgAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAGUIAAAAAAAAZQgAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					14,
+					1,
+					"insert",
+					{
+						"characters": "`"
+					},
+					"AQAAAGcIAAAAAAAAaAgAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAGcIAAAAAAAAZwgAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					16,
+					1,
+					"insert_snippet",
+					{
+						"contents": "`$0`"
+					},
+					"AQAAAGoIAAAAAAAAbAgAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAGoIAAAAAAAAaggAAAAAAAAAAAAAAAA4QA"
+				],
+				[
+					17,
+					1,
+					"insert",
+					{
+						"characters": "``"
+					},
+					"AgAAAGsIAAAAAAAAbAgAAAAAAAAAAAAAbAgAAAAAAABtCAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAGsIAAAAAAAAawgAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					18,
+					1,
+					"left_delete",
+					null,
+					"AQAAAGwIAAAAAAAAbAgAAAAAAAABAAAAYA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAG0IAAAAAAAAbQgAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					22,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AQAAAHUJAAAAAAAAdgkAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAHUJAAAAAAAAdQkAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					24,
+					1,
+					"",
+					null,
+					"AQAAAHYJAAAAAAAAwAoAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAHYJAAAAAAAAdgkAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					27,
+					1,
+					"insert",
+					{
+						"characters": "\n\n"
+					},
+					"AgAAAHUJAAAAAAAAdgkAAAAAAAAAAAAAdgkAAAAAAAB3CQAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAHUJAAAAAAAAdQkAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					30,
+					1,
+					"insert",
+					{
+						"characters": "###"
+					},
+					"AwAAAGkIAAAAAAAAaggAAAAAAAAAAAAAaggAAAAAAABrCAAAAAAAAAAAAABrCAAAAAAAAGwIAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAGkIAAAAAAAAaQgAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					32,
+					1,
+					"",
+					null,
+					"AQAAAGwIAAAAAAAAgQgAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAGwIAAAAAAAAbAgAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					35,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAGwIAAAAAAAAbQgAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAGwIAAAAAAAAbAgAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					39,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AQAAAIcIAAAAAAAAiAgAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAIcIAAAAAAAAhwgAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					41,
+					1,
+					"insert",
+					{
+						"characters": "##"
+					},
+					"AgAAAIcIAAAAAAAAiAgAAAAAAAAAAAAAiAgAAAAAAACJCAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAIcIAAAAAAAAhwgAAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					42,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAIkIAAAAAAAAiggAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAIkIAAAAAAAAiQgAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					44,
+					1,
+					"",
+					null,
+					"AQAAAIoIAAAAAAAAlQgAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAIoIAAAAAAAAiggAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					58,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AQAAAIIIAAAAAAAAgwgAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAIIIAAAAAAAAgggAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					59,
+					1,
+					"paste",
+					null,
+					"AQAAAIMIAAAAAAAAkggAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAIMIAAAAAAAAgwgAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					66,
+					1,
+					"right_delete",
+					null,
+					"AQAAAJcIAAAAAAAAlwgAAAAAAAAPAAAAIyMgUXVpY2sgU3RhcnQK",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAJcIAAAAAAAApggAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					69,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AQAAAIIIAAAAAAAAgwgAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAIIIAAAAAAAAgggAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					72,
+					1,
+					"right_delete",
+					null,
+					"AQAAAJMIAAAAAAAAkwgAAAAAAAABAAAACg",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAJMIAAAAAAAAkwgAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					75,
+					1,
+					"insert",
+					{
+						"characters": "#"
+					},
+					"AQAAAKAJAAAAAAAAoQkAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAKAJAAAAAAAAoAkAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					76,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAKEJAAAAAAAAogkAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAKEJAAAAAAAAoQkAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					78,
+					1,
+					"",
+					null,
+					"AQAAAKIJAAAAAAAAsgkAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAKIJAAAAAAAAogkAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					81,
+					1,
+					"insert",
+					{
+						"characters": "\n\n#"
+					},
+					"AwAAAP0KAAAAAAAA/goAAAAAAAAAAAAA/goAAAAAAAD/CgAAAAAAAAAAAAD/CgAAAAAAAAALAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAP0KAAAAAAAA/QoAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					82,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAAALAAAAAAAAAQsAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAALAAAAAAAAAAsAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					86,
+					1,
+					"",
+					null,
+					"AQAAAAELAAAAAAAAEQsAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAELAAAAAAAAAQsAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					89,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AQAAABELAAAAAAAAEgsAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAABELAAAAAAAAEQsAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					95,
+					1,
+					"",
+					null,
+					"AQAAABILAAAAAAAAnQ4AAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAABILAAAAAAAAEgsAAAAAAAAAAAAAAADwvw"
+				]
+			]
+		}
+	],
+	"build_system": "Packages/Rust/Rust.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Rust/Rust.sublime-build",
+					""
+				],
+				[
+					"Packages/Rust/Rust.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Rust/Rust.sublime-build",
+					"Build & Run"
+				]
+			],
+			[
+				"Packages/Rust/Rust.sublime-build",
+				"Build & Run"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Advanced Install Packages"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"install packa",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Local Dependency"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 230.0,
+		"history":
+		[
+			"exit()",
+			"quit()",
+			"exit",
+			"ls",
+			"exit",
+			"printf \"hello\"",
+			"printf hello",
+			"ls"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/simone/Repos/Progetti/LAVORO/plugins-official"
+	],
+	"file_history":
+	[
+		"/home/simone/Repos/Default/Rec/Zencoder/id.md",
+		"/home/simone/Repos/Progetti/sentinelcore/.github/workflows/ci.yml",
+		"/home/simone/Repos/Progetti/sentinelcore/dev/old-docs/RESET-PASSWORD.md",
+		"/home/simone/remediation-plan-sss.json",
+		"/home/simone/Repos/Progetti/sentinelcore/vulnerability-manager/result.xml",
+		"/home/simone/Repos/Progetti/sentinelcore/vulnerability-manager/result2.xml",
+		"/home/simone/Repos/Progetti/sentinelcore/vulnerability-manager/result_online.xml",
+		"/home/simone/Lavoro/DOGNET/Documentazione_Lavoro/Corso/CorsoHoway/CorsoSecurityPackaging/MODULO_2/modulo2_lezione1_script_istruttore.md",
+		"/home/simone/Repos/Default/Rec/Zencoder/codemd",
+		"/home/simone/Repos/Progetti/sentinelcore/docs/DOCKER_NOTICE.md",
+		"/home/simone/Repos/Progetti/sentinelcore/ISSUE_TEMPLATE/packaging_request.md",
+		"/home/simone/Repos/Progetti/sentinelcore/scripts/deployment/build-rpm.sh",
+		"/home/simone/Repos/Progetti/sentinelcore/scripts/deployment/build-vmdk.sh",
+		"/home/simone/Repos/Progetti/sentinelcore/docs/PACKAGING.md",
+		"/home/simone/Repos/Progetti/sentinelcore/scripts/register.sh",
+		"/home/simone/Repos/Progetti/sentinelcore/vulnerability-manager/migrations/010_seed_extended.sql",
+		"/home/simone/Repos/Progetti/sentinelcore/vulnerability-manager/config/default.yaml",
+		"/home/simone/Repos/Progetti/sentinelcore/vulnerability-manager/migrations/016_jira_integration.sql",
+		"/home/simone/Repos/Progetti/sentinelcore/vulnerability-manager/.env.example",
+		"/home/simone/Repos/Progetti/sentinelcore/RESET-PASSWORD.md",
+		"/home/simone/Repos/Progetti/sentinelcore/.gitignore",
+		"/home/simone/Repos/Progetti/sentinelcore/vulnerability-manager/src/state.rs",
+		"/home/simone/Repos/zshplugins/zshnoyseapply.py",
+		"/home/simone/Repos/zshplugins/noyse_hack/noyse_hack.plugin.zsh",
+		"/home/simone/Repos/zshplugins/noyse_net/noyse_net.plugin.zsh",
+		"/home/simone/Repos/zshplugins/noyse_script/noyse_script.plugin.zsh",
+		"/home/simone/Repos/zshplugins/noyse_sys/noyse_sys.plugin.zsh",
+		"/home/simone/Repos/NoyseSysStuff/dom-xss-scanner/Struttura.txt",
+		"/home/simone/Repos/NoyseSysStuff/fast.kill/README.md",
+		"/home/simone/Repos/NoyseSysStuff/Crawler_dw_js/sites.txt",
+		"/home/simone/Repos/NoyseSysStuff/Crawler_dw_js/options.txt",
+		"/home/simone/Lavoro/Bounty/ATG/frame-1063.js",
+		"/home/simone/Lavoro/Bounty/ATG/url.txt",
+		"/home/simone/Repos/NoyseSysStuff/Crawler_dw_js/Esempio_sites.txt",
+		"/home/simone/Repos/NoyseSysStuff/Crawler_dw_js/js_crawler.py",
+		"/home/simone/Repos/NoyseSysStuff/Crawler_dw_js/requirements.txt",
+		"/home/simone/Repos/NoyseSysStuff/Crawler_dw_js/SetUp.sh",
+		"/home/simone/Repos/NoyseSysStuff/anonme/anonme.sh",
+		"/home/simone/Repos/NoyseSysStuff/net_tables/net_tables.sh",
+		"/home/noyse/Repos/NoyseSysStuff/Test/test.dirty.stuff/testbin.sh",
+		"/home/simone/Desktop/Repos/NoyseSysStuff/hola/hola.sh",
+		"/home/simone/Desktop/Documenti/HackTheBox/OSINT/cheatsheet-28.md",
+		"/home/simone/Desktop/Documenti/HackTheBox/AdvancedWebAttack/WebSocket/src_websocket_xss/server.py",
+		"/home/simone/Repos/noyse_sys/noyse_sys.plugin.zsh",
+		"/home/simone/Repos/NoyseSysStuff/Test/cddir.sh",
+		"/home/noyse/Lavoro/CLIENTI/Grifal/Anydesk.txt",
+		"/home/noyse/Scrivania/MEGAsync.log",
+		"/home/noyse/cracked.json",
+		"/home/noyse/Scrivania/Collegamento a Lavoro/External/WiFi_Jle_txt",
+		"/home/noyse/Scrivania/tplink.txt",
+		"/home/noyse/Lavoro/External/CTF-icsc/IP.txt",
+		"/home/noyse/Lavoro/External/Arp.txt",
+		"/home/noyse/Lavoro/External/CTF-icsc/seq_1.txt",
+		"/home/noyse/Lavoro/CLIENTI/Lutech/C-Management/Doc/prov.txt",
+		"/home/noyse/Lavoro/External/WiFi_Jle_txt",
+		"/home/noyse/Lavoro/DOGNET/Documentazione_Lavoro/Corso/CorsoBase/hacklab/Corso_1/corso_1.txt",
+		"/home/noyse/GIT/URLextractor-master/README.md",
+		"/home/noyse/Repos/noyse_net/noyse_net.plugin.zsh",
+		"/home/simone/.config/sublime-text/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/home/simone/.config/sublime-text/Packages/User/Side Bar.sublime-settings",
+		"/home/Coupon",
+		"/home/simone/Documenti/cheatsheet_privesc_win.txt",
+		"/home/noyse/Scaricati/cheatsheet-67(1).md",
+		"/home/noyse/Scrivania/Collegamento a Robe_Personal/HackTheBox/CheatSheet/cheatsheett_priv-esc.txt",
+		"/home/noyse/Documenti/Robe_Personal/HackTheBox/CheatSheet/cheatsheett_privesc_lin.txt",
+		"/home/noyse/Scaricati/cheatsheet-67.md",
+		"/Magazzino/EXTERNAL/WiFi.txt",
+		"/run/user/1000/gvfs/smb-share:domain=WORKGROUP,server=192.168.100.2,share=public,user=noyse/FILM/Harry Potter Saga Completa (2001-2011) 1080p H265 AC3 ITA.ENG sub ita.eng Sp33dy94-MIRCrew/INFO/Harry Potter 2.txt",
+		"/home/noyse/Lavoro/Sysdat/LavoroP.I/VAPT_2022/PrimoGiro/gsf20220525007.base64",
+		"/home/noyse/Documenti/Robe_Personal/HackTheBox/flag.txt",
+		"/home/noyse/Repos/Default/MasterPDF/Licenza",
+		"/home/noyse/.local/share/nemo/actions/shred.nemo_action",
+		"/Magazzino/3_List/The-Most-Common-Passwords-Pin-e-ScreenLocks-master/BIP39/bip-0039-wordlists.md",
+		"/home/noyse/Scaricati/gtkhash-master/README.md",
+		"/home/noyse/.local/share/nemo/actions/thunderbird.nemo_action",
+		"/home/noyse/.oh-my-zsh/plugins/noyse_sys/noyse_sys.plugin.zsh",
+		"/home/noyse/Scrivania/Collegamento a Repos/Default/Postman/API",
+		"/home/noyse/Repos/noyse_sys/noyse_sys.plugin.zsh",
+		"/home/noyse/Repos/NoyseSysStuff/upd-noyse/upd_noyse.sh",
+		"/home/noyse/Repos/NoyseSysStuff/upd-noyse/upd_noyse2.sh",
+		"/home/noyse/Scrivania/Collegamento a DocumentiLavoro/DogNet/AgenziaEntrate/CodiceSDI",
+		"/home/noyse/Documenti/VBoxCondivisa/sn.txt",
+		"/home/noyse/Lavoro/DOGNET/CTF/External/Result.txt",
+		"/home/noyse/VirtualBox VMs/MiddleManV2-Final/vmware.log",
+		"/home/noyse/VirtualBox VMs/MiddleManV2-Final/1.txt",
+		"/home/noyse/Scrivania/Collegamento a Lavoro/Sysdat/LavoroP.I/VAPT_2021/PrimoGiro/Vapt-Esterno_PrimoGruppoSaronno_15.03.3.2021/ListaIP.txt",
+		"/home/noyse/Lavoro/DOGNET/CSV/os\r",
+		"/home/noyse/Lavoro/Sysdat/LavoroP.I/VAPT_2021/SecondoGiro/Vapt-Esterno_PrimoGruppoSaronno_02.12.2021/Report/Consegnato/INFO.txt",
+		"/home/noyse/Lavoro/Sysdat/LavoroP.I/VAPT_2021/SecondoGiro/Vapt-Esterno_PrimoGruppoSaronno_02.12.2021/Report/Consegnato/Documento senza nome",
+		"/home/noyse/Lavoro/Sysdat/LavoroP.I/VAPT_2021/SecondoGiro/Vapt-Esterno_PrimoGruppoSaronno_02.12.2021/Report/Consegnato/INFO.txt.txt",
+		"/home/noyse/Scrivania/Collegamento a Lavoro/Sysdat/LavoroP.I/VAPT_2021/SecondoGiro/Vapt-Esterno_PrimoGruppoSaronno_02.12.2021/ListaIP.txt",
+		"/Magazzino/Musica/Ableton Live Suite 10.1.7 Multilingual [FileCR]/Crack/Instructions.txt",
+		"/home/noyse/BACK_13:22:49.txt",
+		"/home/noyse/Repos/NoyseSysStuff/upd-noyse/PluginUpdate.sh",
+		"/home/noyse/Repos/noyse_hack/noyse_hack.plugin.zsh",
+		"/home/noyse/Repos/NoyseSysStuff/hola/hola.sh",
+		"/home/noyse/Repos/Default/nemo/actions/thunderbird.nemo_action",
+		"/home/noyse/.local/share/cinnamon/applets/mybookmarks@markbokil.com/mybookmarks.properties",
+		"/home/noyse/.stardict/history",
+		"/home/noyse/Repos/NoyseSysStuff/fast.kill/fast.kill.sh",
+		"/media/noyse/External/Backup_01.10.2021/Documenti/ed",
+		"/home/noyse/.goldendict/config",
+		"/home/noyse/Repos/NoyseSysStuff/SysStuff.sublime-project",
+		"/home/noyse/Repos/Default/Cinnamon/BookmarkApplet/mybookmarks.properties",
+		"/usr/share/nemo/actions/sample.nemo_action",
+		"/home/noyse/Repos/Default/nemo/actions/shred.nemo_action",
+		"/media/noyse/shred.nemo_action",
+		"/media/noyse/External/Backup_01.10.2021/.local/share/nemo/actions/thunderbird.nemo_action",
+		"/home/noyse/GIT/gsa/INSTALL.md",
+		"/home/noyse/Repos/Default/Rkhunter.config/rkhunter",
+		"/home/noyse/Documenti/ed",
+		"/media/noyse/External/Backup_01.10.2021/.faraday/config/server.ini",
+		"/media/noyse/External/Backup_01.10.2021/.faraday/.faraday/config/server.ini",
+		"/home/noyse/file.txt",
+		"/home/noyse/.mybin/.etc/.no/Yo/ed",
+		"/home/noyse/+55",
+		"/home/noyse/RKHUNTER.exit",
+		"/home/noyse/Documenti/Libri/Sconosciuto/GenericBlind (4)/GenericBlind - Sconosciuto.txt",
+		"/home/noyse/Modelli/repos/Default/Liste/ListaDpkg/ComaparatLdog2-Ldog.txt",
+		"/home/noyse/Modelli/repos/Default/Rkhunter.config/rkhunter.conf",
+		"/home/noyse/Modelli/repos/Default/Audit.config/audisp/audisp-remote.conf",
+		"/home/noyse/Modelli/repos/Default/Audit.config/audit.rules",
+		"/home/noyse/Modelli/repos/Default/Liste/ListaDpkg/Listadpkh.txt",
+		"/home/noyse/.mybin/.etc/.no/bellometti.simone@sigesgroup.it Firefox Recovery Key.txt",
+		"/home/noyse/.mybin/Ok/bellometti.simone@sigesgroup.it Firefox Recovery Key.txt",
+		"/home/noyse/.mybin/Ok/.no/Yo/ed",
+		"/home/noyse/.mybin/Ok/Ok/.no/NewKey/Chiavi-pubbliche-e-private-esportate.asc",
+		"/home/noyse/Modelli/Project/CodeStuff/ruby/Test/dir.rb"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 166.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"’",
+			"'",
+			"–",
+			"à",
+			"-",
+			"Ethical Hacking / Penetration Testing\n\nPrezzo orario: €75 / h\n\nServizio di penetration testing applicativo e infrastrutturale volto a individuare vulnerabilità sfruttabili prima che vengano utilizzate da attori malevoli. Utilizziamo metodologie OWASP, OSSTMM e tecniche reali di attacco per valutare resilienza, impatto e superfici di esposizione, fornendo report tecnici e raccomandazioni operative concrete.\n\nTiger Team – BlackOps (Red Team avanzato)\n\nPrezzo orario: €120 / h\n\nSimulazioni di attacco avanzate multi-vettore che combinano cyber, fisico e fattore umano. Il servizio replica il comportamento di APT, insider threat e threat actor sofisticati, includendo social engineering, intrusioni fisiche controllate e tecniche non convenzionali, operando sotto rigorosi framework legali e contrattuali autorizzati.\n\nThreat Intelligence & Dark Web Monitoring\n\nPrezzo orario: €70 / h\n\nServizio continuativo di raccolta e analisi delle minacce emergenti, focalizzato su dark web, forum underground e campagne attive. Forniamo intelligence contestualizzata, profili di threat actor, indicatori di compromissione e alert tempestivi, consentendo decisioni strategiche e difensive basate su dati reali.\n\nHardening Sistemi (Standard CIS)\n\nPrezzo orario: €65 / h\n\nImplementazione strutturata dei CIS Benchmarks per rafforzare sistemi operativi, server, applicazioni e dispositivi di rete. Il servizio riduce drasticamente la superficie d’attacco mantenendo la piena operatività aziendale, con documentazione verificabile e configurazioni personalizzate in base al profilo di rischio.\n\nGovernance & Compliance (NIS2, PCI DSS, IATF)\n\nPrezzo orario: €80 / h\n\nSupporto specialistico per la costruzione di un framework di governance integrato e conforme alle principali normative di cybersecurity. Include analisi del perimetro, definizione di policy, gestione del rischio, supporto audit e reporting continuo, riducendo duplicazioni e ottimizzando risorse e investimenti.\n\nVulnerability Assessment Continuativo\n\nPrezzo orario: €60 / h\n\nAnalisi periodica delle vulnerabilità tramite scansioni automatiche, early warning e valutazione tecnica delle esposizioni. Il servizio consente di mantenere sotto controllo il livello di rischio nel tempo, prioritizzando le remediation e supportando una gestione strutturata della sicurezza operativa.\n\nProgettazione e Attività Sistemistiche (Linux / Proxmox)\n\nPrezzo orario: €55 / h\n\nServizi sistemistici avanzati per progettazione, gestione e ottimizzazione di infrastrutture IT basate su Linux e Proxmox VE. Include virtualizzazione, cluster HA, storage distribuito, backup, disaster recovery e automazione, con focus su affidabilità, sicurezza e contenimento dei costi.\n\nIncident Response & Supporto Operativo\n\nPrezzo orario: €90 / h\n\nSupporto specialistico in caso di incidente di sicurezza, compromissione o sospetto attacco. Il servizio include analisi forense iniziale, contenimento, supporto decisionale e ripristino operativo, riducendo tempi di fermo e impatto economico sull’organizzazione.",
+			"`",
+			"| `",
+			"read",
+			"INSTALLDIR"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"  ",
+			" ",
+			"  ",
+			" a'",
+			" ",
+			"read -r"
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": false,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8628,
+						"regions":
+						{
+							"col_0000FFFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										1813,
+										1817
+									]
+								],
+								"scope": "col_0000FFFF"
+							},
+							"col_0000FFFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_0000FFFF_circle.png",
+								"regions":
+								[
+									[
+										1754,
+										1754
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_008000FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										1903,
+										1908
+									],
+									[
+										2307,
+										2312
+									]
+								],
+								"scope": "col_008000FF"
+							},
+							"col_008000FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_008000FF_circle.png",
+								"regions":
+								[
+									[
+										1831,
+										1831
+									],
+									[
+										2243,
+										2243
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_00FF00FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										2302,
+										2306
+									]
+								],
+								"scope": "col_00FF00FF"
+							},
+							"col_00FF00FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_00FF00FF_circle.png",
+								"regions":
+								[
+									[
+										2243,
+										2243
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_00FFFFFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										2065,
+										2069
+									]
+								],
+								"scope": "col_00FFFFFF"
+							},
+							"col_00FFFFFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_00FFFFFF_circle.png",
+								"regions":
+								[
+									[
+										2006,
+										2006
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_4B0082FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										2223,
+										2229
+									]
+								],
+								"scope": "col_4B0082FF"
+							},
+							"col_4B0082FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_4B0082FF_circle.png",
+								"regions":
+								[
+									[
+										2164,
+										2164
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_800080FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										2541,
+										2547
+									]
+								],
+								"scope": "col_800080FF"
+							},
+							"col_800080FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_800080FF_circle.png",
+								"regions":
+								[
+									[
+										2482,
+										2482
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_FF0000FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										2625,
+										2628
+									],
+									[
+										2792,
+										2795
+									]
+								],
+								"scope": "col_FF0000FF"
+							},
+							"col_FF0000FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_FF0000FF_circle.png",
+								"regions":
+								[
+									[
+										2561,
+										2561
+									],
+									[
+										2726,
+										2726
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_FF6347FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										2785,
+										2791
+									]
+								],
+								"scope": "col_FF6347FF"
+							},
+							"col_FF6347FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_FF6347FF_circle.png",
+								"regions":
+								[
+									[
+										2726,
+										2726
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_FFA500FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										2385,
+										2391
+									]
+								],
+								"scope": "col_FFA500FF"
+							},
+							"col_FFA500FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_FFA500FF_circle.png",
+								"regions":
+								[
+									[
+										2326,
+										2326
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_FFC0CBFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										2464,
+										2468
+									]
+								],
+								"scope": "col_FFC0CBFF"
+							},
+							"col_FFC0CBFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_FFC0CBFF_circle.png",
+								"regions":
+								[
+									[
+										2405,
+										2405
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_FFFF00FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										2868,
+										2874
+									]
+								],
+								"scope": "col_FFFF00FF"
+							},
+							"col_FFFF00FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_FFFF00FF_circle.png",
+								"regions":
+								[
+									[
+										2809,
+										2809
+									]
+								],
+								"scope": "col_gutter"
+							}
+						},
+						"selection":
+						[
+							[
+								8628,
+								8628
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"auto_indent": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"default_dir": "/home/simone/Repos/Progetti/LAVORO/plugins-official",
+							"git_gutter_is_enabled": false,
+							"gutter": false,
+							"lsp_uri": "buffer:60",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"tab_width": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "README.md",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3742,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								889,
+								907
+							]
+						],
+						"settings":
+						{
+							"auto_name": "# CyberSheppard Official Plugins",
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"git_gutter_is_enabled": true,
+							"lsp_uri": "file:///home/simone/Repos/Progetti/LAVORO/plugins-official/README.md",
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 58.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.LSP Log Panel":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"output.SublimeLinter":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"output.diagnostics":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"output.exec":
+	{
+		"height": 230.0,
+		"history":
+		[
+		]
+	},
+	"output.find_results":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"output.summary-panel":
+	{
+		"height": 140.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 195.0
+	},
+	"pinned_build_system": "Packages/ShellScript/ShellScript.sublime-build",
+	"project": "PluginOffical.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"lsp_show_inlay_hints": false
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 314.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 1
+	}
+}
