@@ -1,10 +1,10 @@
-# CyberSheppard & SentinelCore - Official Plugin Repository
+# CyberShepherd & SentinelCore - Official Plugin Repository
 
-Official plugin repository for **CyberSheppard MicroSIEM** and **SentinelCore Vulnerability Management Platform**.
+Official plugin repository for **CyberShepherd MicroSIEM** and **SentinelCore Vulnerability Management Platform**.
 
 ## 📦 Available Plugins
 
-### CyberSheppard Plugins
+### CyberShepherd Plugins
 
 | Plugin | Version | Status | Stability | Description |
 |--------|---------|--------|-----------|-------------|
@@ -29,7 +29,7 @@ Official plugin repository for **CyberSheppard MicroSIEM** and **SentinelCore Vu
 
 ```
 plugins-official/
-├── cybersheppard/           # CyberSheppard MicroSIEM plugins
+├── CyberShepherd/           # CyberShepherd MicroSIEM plugins
 │   ├── theme-pack-professional-dark/
 │   │   ├── manifest.json
 │   │   ├── plugin.py
@@ -55,7 +55,7 @@ plugins-official/
 
 ## 🔧 Installation
 
-Plugins are automatically discovered and listed in the CyberSheppard/SentinelCore Plugin Manager UI.
+Plugins are automatically discovered and listed in the CyberShepherd/SentinelCore Plugin Manager UI.
 
 ### From UI (Recommended)
 
@@ -71,9 +71,9 @@ Plugins are automatically discovered and listed in the CyberSheppard/SentinelCor
 # Clone this repository
 git clone https://github.com/YOUR_ORG/plugins-official.git
 
-# Copy plugin to CyberSheppard plugins directory
-cp -r plugins-official/cybersheppard/theme-pack-professional-dark \
-      /path/to/cybersheppard/plugins/
+# Copy plugin to CyberShepherd plugins directory
+cp -r plugins-official/CyberShepherd/theme-pack-professional-dark \
+      /path/to/CyberShepherd/plugins/
 
 # Copy plugin to SentinelCore plugins directory
 cp -r plugins-official/sentinelcore/vulnerability-scanner-nexpose \
@@ -84,7 +84,7 @@ cp -r plugins-official/sentinelcore/vulnerability-scanner-nexpose \
 
 ### Quick Start
 
-1. Choose product directory (`cybersheppard/` or `sentinelcore/`)
+1. Choose product directory (`CyberShepherd/` or `sentinelcore/`)
 2. Create plugin directory: `your-plugin-name/`
 3. Create `manifest.json` with plugin metadata
 4. Implement plugin logic in `plugin.py` or `plugin.rs`
@@ -136,7 +136,7 @@ cp -r plugins-official/sentinelcore/vulnerability-scanner-nexpose \
 
 - **name**: Unique plugin identifier (lowercase, hyphens)
 - **version**: Semantic versioning (MAJOR.MINOR.PATCH)
-- **product**: Either `cybersheppard` or `sentinelcore`
+- **product**: Either `CyberShepherd` or `sentinelcore`
 - **stato**: Either `stable` or `unstable`
 - **stability_level**: `alpha`, `beta`, or `complete`
 - **description**: Clear, concise plugin description
@@ -159,7 +159,7 @@ Declare all required permissions in manifest:
 
 Plugins can subscribe to system events:
 
-**CyberSheppard Events:**
+**CyberShepherd Events:**
 - `security.violation.detected` - New security violation detected
 - `target.scan.complete` - Target scan completed
 - `alert.triggered` - Alert condition met
@@ -173,7 +173,7 @@ Plugins can subscribe to system events:
 
 ### Example Plugin
 
-See `cybersheppard/example-plugin/` and `sentinelcore/example-plugin/` for complete working examples.
+See `CyberShepherd/example-plugin/` and `sentinelcore/example-plugin/` for complete working examples.
 
 ## 🔐 Security
 
@@ -238,7 +238,7 @@ This repository uses Git tags for versioning:
 ## 📊 Statistics
 
 - **Total Plugins**: 11
-- **CyberSheppard Plugins**: 6
+- **CyberShepherd Plugins**: 6
 - **SentinelCore Plugins**: 5
 - **Production Ready**: 4
 - **Beta**: 7
@@ -246,4 +246,4 @@ This repository uses Git tags for versioning:
 
 ---
 
-**Made with ❤️ by the CyberSheppard & SentinelCore Team**
+**Made with ❤️ by the CyberShepherd & SentinelCore Team**
