@@ -1,6 +1,6 @@
-# CyberSheppard Example Plugin
+# CyberShepherd Example Plugin
 
-A complete example plugin demonstrating all capabilities of the CyberSheppard plugin system.
+A complete example plugin demonstrating all capabilities of the CyberShepherd plugin system.
 
 ## Features
 
@@ -17,7 +17,7 @@ A complete example plugin demonstrating all capabilities of the CyberSheppard pl
 
 ### From Plugin Manager (Recommended)
 
-1. Navigate to **Plugins** in CyberSheppard UI
+1. Navigate to **Plugins** in CyberShepherd UI
 2. Find "Example Plugin" in the Available tab
 3. Click **Install**
 4. Configure the plugin settings
@@ -26,11 +26,11 @@ A complete example plugin demonstrating all capabilities of the CyberSheppard pl
 ### Manual Installation
 
 ```bash
-# Copy plugin to CyberSheppard plugins directory
-cp -r example-plugin /path/to/cybersheppard/plugins/
+# Copy plugin to CyberShepherd plugins directory
+cp -r example-plugin /path/to/cybershepherd/plugins/
 
-# Restart CyberSheppard
-systemctl restart cybersheppard
+# Restart CyberShepherd
+systemctl restart CyberShepherd
 ```
 
 ## Configuration
@@ -67,7 +67,7 @@ Configure the plugin in the Plugin Manager UI or directly in the database:
 
 ## Events
 
-The plugin subscribes to the following CyberSheppard events:
+The plugin subscribes to the following CyberShepherd events:
 
 - `security.violation.detected` - Triggered when a security violation is detected
 - `target.scan.complete` - Triggered when a target scan completes
@@ -135,7 +135,7 @@ pytest --cov=plugin --cov-report=html tests/
 
 ```bash
 git clone https://github.com/your-org/plugins-official.git
-cd plugins-official/cybersheppard/example-plugin
+cd plugins-official/cybershepherd/example-plugin
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
@@ -176,7 +176,7 @@ Content-Type: application/json
   "message": "High severity violation detected",
   "severity": "high",
   "timestamp": "2025-12-29T10:35:00Z",
-  "source": "cybersheppard-plugin"
+  "source": "cybershepherd-plugin"
 }
 ```
 
@@ -186,7 +186,7 @@ Content-Type: application/json
 
 Check the plugin logs:
 ```bash
-tail -f /var/log/cybersheppard/plugins.log
+tail -f /var/log/cybershepherd/plugins.log
 ```
 
 Verify manifest.json is valid:
@@ -215,7 +215,7 @@ MIT License - see LICENSE file for details
 ## Support
 
 - **Issues**: https://github.com/your-org/plugins-official/issues
-- **Documentation**: https://docs.cybersheppard.com/plugins/example
+- **Documentation**: https://docs.cybershepherd.com/plugins/example
 - **Email**: support@cybersheppard.com
 
 ## Changelog
